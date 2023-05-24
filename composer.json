@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ratnik/mvc-demo": "dev-master"
+    }
+}
