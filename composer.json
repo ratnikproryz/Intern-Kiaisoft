@@ -1,5 +1,10 @@
 {
     "require": {
         "ratnik/mvc-demo": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
     }
 }
