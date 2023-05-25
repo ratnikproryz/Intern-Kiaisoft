@@ -24,3 +24,7 @@ foreach ($listNumbers as $item) {
 echo "\nUse filter: ";
 $result = array_filter($resultList, 'biggerThan5');
 print_r($result);
+
+$vendorDir = dirname(__DIR__);
+$baseDir = dirname($vendorDir);
+echo $baseDir;
